@@ -8,11 +8,8 @@ const MyPost = () => {
             <button>Add post</button>
             <div className={s.posts}>
                 <div className={s.item}>
-                    <Post/>
-                    <Post/>
-                    <Post/>
-                    <Post/>
-                    <Post/>
+                    <Post message='Hi, how are you?'/>
+                    <Post message='My first post!'/>
                 </div>
             </div>
         </div>
