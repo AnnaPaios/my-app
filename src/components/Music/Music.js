@@ -3,8 +3,10 @@ import s from './music.module.css';
 
 const Music = () => {
     return (
-        <div className={s.music}>News</div>
+        <div>
+            music
+        </div>
     )
 }
 
-export default Music;
+export default Music

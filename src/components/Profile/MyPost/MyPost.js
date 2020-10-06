@@ -2,6 +2,11 @@ import React from 'react';
 import s from './myPost.module.css';
 import Post from './Post/Post';
 
+let postData = [
+    { id: 1, message: 'Hi, how are you?', likesCount: 12 },
+    { id: 2, message: 'My first post!', likesCount: 3 }
+]
+
 const MyPost = () => {
     return (
         <div className={s.postBlock}>
